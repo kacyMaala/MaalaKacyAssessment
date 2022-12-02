@@ -1,0 +1,26 @@
+
+
+a.brand-logo{
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+    margin-left: 5cm;
+}
+
+span.kappu{
+    color: white;
+}
+.subheader{
+    font-family: 'Times New Roman';
+    font-weight: lighter;
+}
+
+i.material-icons{
+    margin-left: 3cm;
+    color: white;
+}
+
+.menu{
+    margin-left: 5cm;
+}
+
+

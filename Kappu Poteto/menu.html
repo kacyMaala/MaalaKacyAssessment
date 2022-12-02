@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>
+        Kappu Potet'o
+    </title>
+</head>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Side Navigation (script)-->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems, {direction: 'right'});
+        });
+
+    // Initialize collapsible (uncomment the lines below if you use the dropdown variation)
+    // var collapsibleElem = document.querySelector('.collapsible');
+    // var collapsibleInstance = M.Collapsible.init(collapsibleElem, options);
+    // Or with jQuery
+
+        $(document).ready(function(){
+        $('.sidenav').sidenav();
+        });
+    </script>
+    <!--end Side Navigation (script)-->
+
+    <!--Drop Down (script)-->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.dropdown-trigger');
+        var instances = M.Dropdown.init(elems, {direction: 'bottom'});
+        });
+
+        // Or with jQuery
+
+        $('.dropdown-trigger').dropdown();
+    </script>
+    <!--end Drop Down (script)-->
+
+        <!--Sliders Script-->
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.slider');
+        var instances = M.Slider.init(elems, {direction: 'right'});
+      });
+    
+      // Or with jQuery
+    
+      $(document).ready(function(){
+        $('.slider').slider();
+      });
+            
+        </script>
+        <!--end Sliders Script-->
+<body>
+    
+
+       
+        <nav class="white">
+            <div class="nav-wrapper">
+                    <!--Nav Bar-->
+              <a href="#" class="brand-logo"><span class="kappu">Kappu Potet'o</span></a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html" class="black-text">Home</a></li>
+                    <li><a href="menu.html" class="black-text">Menu</a></li>
+                    <li><a href="order.html" class="black-text">Order</a></li>
+                    <li><a href="franchise.html" class="black-text">Franchise</a></li>
+                   
+              
+                    <!--end Nav Bar-->
+          
+                     <!--Drop Down-->
+                    <!-- Dropdown Trigger -->
+                    <a class='dropdown-trigger right' href='#' data-target='dropdown1'><i class="material-icons">arrow_drop_down</i></a>
+
+                    <!-- Dropdown Structure -->
+                    <ul id='dropdown1' class='dropdown-content'>
+                        <li ><a href="#!" style="font-size: 15px;">Create New Account</a></li>
+                        <li><a href="#!" style="font-size: 15px;">Sign Out</a></li>
+                          
+                    </ul>
+                    <!--end Drop Down-->
+                </ul>
+
+            <!--Side Nav-->
+                <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
+                <ul id="slide-out" class="sidenav">
+                    <li>
+                        <div class="user-view">
+                            <div class="background">
+                            <img src="me.jpeg">
+                            </div>
+    
+                            <a href="#user"><img class="circle" src="me.jpeg"></a>
+                            <a href="#name"><span class="white-text name">Kacy Maala</span></a>
+                            <a href="#email"><span class="white-text email">kacymaala461@gmail.com</span></a>
+                        </div>
+                    </li>
+    
+                    <li><a href="#!"><i class="material-icons">phone</i>Contacts</a></li>
+                    <li><a href="#!"><i class="material-icons">place</i>Address</a></li>
+                    <li><a href="#!"><i class="material-icons">list</i>Order</a></li>
+                    <li><a href="#!"><i class="material-icons">person_outline</i>Profile</a></li>
+                    <li><div class="divider"></div></li>
+                    <li><a class="subheader"></a></li>
+                    <li><a href="#!">Settings</a></li>
+                    <li><a href="#!">Terms & Conditions / Privacy</a></li>
+                    <li><a href="#!">FAQs</a></li>
+                </ul>
+            <!--end Side Nav-->
+            </div>
+        </nav>
+
+        <!--H E A D E R-->
+        <h1 class="white-text">
+            <div class="row">
+                <ul >
+                    <li><a href="#!"><i class="medium material-icons white-text">local_dining</i><span class="white-text name">Kappu Potet'o</span></a></li>
+                </ul>
+            </div>
+        </h1>
+        <!--end H E A D E R-->
+
+        <!--S L I D E R under header-->
+
+        <!--end S L I D E R under header-->
+
+    
+</body>
+</html>

@@ -1,0 +1,26 @@
+body{
+    background-image: url("bg.jpg");
+}
+
+a.brand-logo{
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+    margin-left: 5cm;
+}
+
+span.kappu{
+    color: black;
+}
+.subheader{
+    font-family: 'Times New Roman';
+    font-weight: lighter;
+}
+
+i.material-icons{
+    margin-left: 3cm;
+    color: black;
+}
+
+
+
+
